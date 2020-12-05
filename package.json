@@ -1,0 +1,62 @@
+{
+  "name": "asset-deck-iex",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "keywords": [],
+  "author": "Paul Snider",
+  "description": "Get real time and historical stock market quotes and data! This a finance web app built with react and redux on the front end which contains a user authentication system connected to a rails api backend to persist new users, assets, and associations of assets to users. The app includes a layout for stock quotes, change summary, fundamentals, financials, and daily or monthly historical returns. All symbols are saved to the rails api backend for each user and fresh stock data can easily be fetched at the click of a button.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psnider30/asset-deck-iex-client.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "compression": "^1.7.2",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-favicon": "^0.0.14",
+    "react-menu-button": "^0.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.1",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "uuid": "^3.2.1",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.1.0",
+    "jsdom": "^11.6.2",
+    "mini-css-extract-plugin": "^0.4.0",
+    "mocha": "^5.0.5",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-hot-middleware": "^2.21.2"
+  },
+  "bugs": {
+    "url": "https://github.com/psnider30/asset-deck-iex-client/issues"
+  },
+  "homepage": "https://github.com/psnider30/asset-deck-iex-client#readme"
+}
